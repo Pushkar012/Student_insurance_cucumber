@@ -26,6 +26,7 @@ public class Driver {
 		FileReader file = new FileReader(System.getProperty("user.dir") + "\\src\\test\\resources\\TestData\\config.properties");
 		p = new Properties();
 		p.load(file);
+		
 
 		logger = LogManager.getLogger(this.getClass());// Log4j
 
