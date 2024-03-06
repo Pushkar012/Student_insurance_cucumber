@@ -31,6 +31,7 @@ public class Driver {
 		logger = LogManager.getLogger(this.getClass());// Log4j
 
 		driver = new ChromeDriver();
+		
 		  /*Scanner sc=new Scanner(System.in); 
 		  System.out.println("Choose your Browser");
 		  System.out.println("1. Chrome Browser");

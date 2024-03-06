@@ -56,7 +56,7 @@ public class Travel extends Driver {
         dateButton.click();
     }
 
-    @FindBy(how = How.XPATH, using = "//button[@ aria-label='Mar 3, 2024' and @role='cell']")
+    @FindBy(how = How.XPATH, using = "//button[@ aria-label='Mar 15, 2024' and @role='cell']")
     public WebElement startDate;
     
     public void selectStartDate() {
