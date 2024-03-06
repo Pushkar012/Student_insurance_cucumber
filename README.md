@@ -4,11 +4,11 @@
 This document provides an overview of the features and scenarios covered in the "Travel Insurance Plan for Students" feature.
 
 
-Scenario 1: Find and Display Three Lowest International Travel Insurance Plans
+# Scenario 1: Find and Display Three Lowest International Travel Insurance Plans
 
-Scenario 2: Get a Car Insurance Quote and Capture Error Message
+# Scenario 2: Get a Car Insurance Quote and Capture Error Message
 
-Scenario 3: Retrieve and Display Health Insurance Menu Items
+# Scenario 3: Retrieve and Display Health Insurance Menu Items
 
 
 ## Tech Stack
@@ -45,12 +45,16 @@ Scenario 3: Retrieve and Display Health Insurance Menu Items
     feature file : Policy.feature
     
 - src/test/resources/Testdata
-
 	config.properties
 	log4j2.properties
 	logj2.xml
 	Traveldata.xlxs	
 
+- Student_insurance_Project_cucumber/Excel
+	CarData.xlsx
+	HealthInsuranceData.xlsx
+	InsuranceData.xlsx
+	
 ## Test Cases
 
 There are total 4 Test Cases
