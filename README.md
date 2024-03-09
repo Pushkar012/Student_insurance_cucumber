@@ -14,7 +14,7 @@ This document provides an overview of the features and scenarios covered in the 
 ## Tech Stack
 
 - Java (MAVEN project)
-- SELENIUM 4.10.0
+- SELENIUM 4.17.0
 - TestNG 7.4.0
 - Eclipse 2023-12 (4.30.0)
 - Extent Reports 5.1.1

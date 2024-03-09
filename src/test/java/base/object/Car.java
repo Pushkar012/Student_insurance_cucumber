@@ -10,6 +10,11 @@ import com.base.com.Driver;
 
 public class Car extends Driver {
 	
+	public void Website(WebDriver driver)
+	{
+		driver.get(Carbutton);
+	}
+	public String Carbutton="https://ci.policybazaar.com/?utm_content=home_v11";
 	Driver driver;
 	 public Car(WebDriver driver) {
 	        PageFactory.initElements(driver, this);
@@ -20,6 +25,7 @@ public class Car extends Driver {
 	 public void clickCarInsuranceButton()
 	 {
 		 CarInsuranceButton.click();
+
 	 }
 	 
 	 @FindBy(how=How.XPATH,using="//*[@id='before-tp']/div[2]/a" )

@@ -5,22 +5,13 @@
     <classes>
       <class name="policyBazaar.test.TravelInsuranceTest">
         <methods>
-          <include name="SelectDestination"/>
           <include name="setup"/>
-          <include name="setUp"/>
-          <include name="ViewPlan"/>
-          <include name="testSelectNumberOfTravellers"/>
-          <include name="InsuranceData"/>
-          <include name="testTravelInsuranceButtonClick"/>
-          <include name="testSelectDate"/>
-          <include name="SelectingStudentTrip"/>
           <include name="afterMethod"/>
-          <include name="SwitchChild"/>
+          <include name="setUp"/>
           <include name="HealthInsurance"/>
           <include name="tearDown"/>
           <include name="CarInsurance"/>
           <include name="fillingForm"/>
-          <include name="testSwitchToChildWindow"/>
         </methods>
       </class> <!-- policyBazaar.test.TravelInsuranceTest -->
     </classes>

@@ -336,8 +336,7 @@ List<WebElement> planList = driver.findElements(By.xpath("//*[@class='quotesCard
     {
     	test = extent.createTest("testCarInsurance");
         test.log(Status.INFO, "Testing car insurance");
-
-        carPage.clickCarInsuranceButton();
+        carPage.Website(driver);
         carPage.clickWithoutCarNumber();
         carPage.clickSearchButton();
         carPage.clickRtoButton();

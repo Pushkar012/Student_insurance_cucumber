@@ -5,8 +5,8 @@
     <classes>
       <class name="policyBazaar.test.TravelInsuranceTest">
         <methods>
-          <include name="setup"/>
           <include name="SelectDestination"/>
+          <include name="setup"/>
           <include name="setUp"/>
           <include name="ViewPlan"/>
           <include name="testSelectNumberOfTravellers"/>
