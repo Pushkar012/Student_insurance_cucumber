@@ -1,5 +1,6 @@
 package base.object;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -8,7 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.base.com.Driver;
 
@@ -144,13 +147,17 @@ public class Travel extends Driver {
         
     }
 
+   
+
     @FindBy(how = How.XPATH, using = "//*[@for='studentTrip']")
     public WebElement studentTrip;
-    
 
     public void clickStudentTrip() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Wait for a maximum of 10 seconds
+        wait.until(ExpectedConditions.elementToBeClickable(studentTrip));
         studentTrip.click();
     }
+
 
 
     @FindBy(how = How.XPATH, using = "//*[@for='Traveller_1']")
@@ -194,7 +201,8 @@ public class Travel extends Driver {
     @FindBy(how = How.XPATH, using = "//*[@id='17_sort']")
     public WebElement lowHighPrice;
     
-    public void clickLowHighPrice() {
+    public void clickLowHighPrice() throws InterruptedException {
+    	Thread.sleep(2000);
         lowHighPrice.click();
     }
 

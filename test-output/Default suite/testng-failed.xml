@@ -9,6 +9,8 @@
           <include name="SelectingStudentTrip"/>
           <include name="afterMethod"/>
           <include name="setUp"/>
+          <include name="SwitchChild"/>
+          <include name="HealthInsurance"/>
           <include name="tearDown"/>
           <include name="CarInsurance"/>
           <include name="fillingForm"/>

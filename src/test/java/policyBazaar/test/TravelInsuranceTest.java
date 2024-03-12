@@ -266,9 +266,9 @@ List<WebElement> planList = driver.findElements(By.xpath("//*[@class='quotesCard
      String amount;
 
      if (i == 0) {
-         provider = lines[i == 0 ? 0 : i + 0];
-         planName = lines[i == 0 ? 1 : i + 1];
-         amount = lines[i == 0 ? 4 : i + 4];
+         provider = lines[i == 0 ? 1 : i + 0];
+         planName = lines[i == 0 ? 2 : i + 1];
+         amount = lines[i == 0 ? 5 : i + 4];
      } else if (i == 1) {
          provider = lines[i == 0 ? 0 : i + 0];
          planName = lines[i == 0 ? 1 : i + 1];
